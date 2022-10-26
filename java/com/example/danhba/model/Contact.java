@@ -27,6 +27,6 @@ public class Contact {
 
     @Override
     public String toString() {
-        return "Tên " +name + "\nSố điện thoại: " + Phone;
+        return "Tên: " +name + "\nSố điện thoại: " + Phone;
     }
 }

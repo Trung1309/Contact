@@ -25,8 +25,10 @@ public class DanhBa extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_danh_ba);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         addControl();
         showAllContactFromDevice();
+
     }
 
     private void addControl() {

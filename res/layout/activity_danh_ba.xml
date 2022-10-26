@@ -7,6 +7,21 @@
     tools:context=".DanhBa"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Quốc Trung\n2050531200351"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DANH BẠ"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
     <ListView
         android:id="@+id/lv_danhBa"
         android:layout_width="match_parent"
